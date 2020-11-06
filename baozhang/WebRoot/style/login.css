@@ -1,0 +1,15 @@
+body {padding: 0; margin: 0;}
+body,html{height: 100%;}
+#outer {height: 100%; overflow:hidden;position: relative;width: 100%;}
+#outer[id] {display: table; position: static;}
+#middle {position: absolute; top: 50%;}  /* for explorer only*/
+#middle[id] {display: table-cell; vertical-align: middle;position: static;}
+#inner {position: relative; top: -50%;margin: 0 auto;width:100%;} /* for explorer only*/
+div.greenBorder {text-align:center;}
+.wrapper{width:852px;height:482px;margin:0px auto;background:url(../images/bg04.png);text-align:left;}
+.log_box{margin-left:550px;padding-top:220px;font:"黑体";font-size:xx-large;font-weight:bold;color:#666666}
+.log_box table td{height:43px;font:"黑体";font-size:medium;font-weight:bold;color:#666666}
+.txt{width:166px;height:27px;line-height:27px;padding-left:4px;background:url(../images/inputbg.jpg) no-repeat;border:0px;}
+.nav p{color:#fff;font-family:"黑体";padding-left:20px;padding-top:0px;}
+.nav p a{color:#fff;font-size:14px;text-decoration:none;}
+.nav p a:hover{color:#fff;font-size:14px;text-decoration:underline;}
